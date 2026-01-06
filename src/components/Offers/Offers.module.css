@@ -56,3 +56,8 @@
     padding: 40px 16px;
   }
 }
+@media (max-width: 600px) {
+  .card {
+    text-align: center;
+  }
+}
