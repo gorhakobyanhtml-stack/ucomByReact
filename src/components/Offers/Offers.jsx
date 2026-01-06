@@ -19,4 +19,4 @@ function Offers() {
   );
 }
 
-export default Offers;
+export default Offers
