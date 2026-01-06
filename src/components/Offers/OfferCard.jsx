@@ -1,15 +1,15 @@
-import styles from "./OfferCard.module.css";
+import styles from "./Offers.module.css";
 
-function OfferCard({ title, description, image }) {
+function Offers() {
   return (
-    <div className={styles.card}>
+    <section className={styles.section}>
       <img src={image} alt={title} className={styles.image} />
 
       <h3 className={styles.title}>{title}</h3>
 
       <p className={styles.description}>{description}</p>
-    </div>
+    </section>
   );
 }
 
-export default OfferCard;
+export default Offers;
