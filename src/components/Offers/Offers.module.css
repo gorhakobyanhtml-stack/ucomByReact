@@ -6,3 +6,9 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 16px;
+  padding: 24px;
+}
